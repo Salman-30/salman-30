@@ -5,6 +5,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     text-align: center;
+    height: 100vh;
+    width: 100vh;
 }
 
 header {
@@ -18,12 +20,8 @@ header {
 }
 
 #meme-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 20px auto;
-    height: 80%;
-    width: 80%;
+  
 }
 
 #meme-image {
