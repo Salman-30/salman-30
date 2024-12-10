@@ -19,6 +19,8 @@ header {
 
 #meme-container {
     margin: 20px auto;
+    height: 20%;
+    width: 20%;
 }
 
 #meme-image {
