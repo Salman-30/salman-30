@@ -18,9 +18,10 @@ header {
 }
 
 #meme-container {
+    display: flex;
     margin: 20px auto;
-    height: 20%;
-    width: 20%;
+    height: 50%;
+    width: 50%;
 }
 
 #meme-image {
