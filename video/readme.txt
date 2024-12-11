@@ -1,1 +1,0 @@
-buat aset video
