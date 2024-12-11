@@ -61,6 +61,9 @@ nav ul li a {
 }
 
 .apa_itu_aura img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px; /* Fixed width for images */
     height: auto; /* Maintain image aspect ratio */
     border-radius: 10px; /* Rounded corners */
