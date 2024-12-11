@@ -1,57 +1,62 @@
+/* General Body Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: Arial, sans-serif; /* Font for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text color */
 }
 
+/* Header Styles */
 header {
-    background-color: #ff9800;
-    color: white;
-    text-align: center;
-    padding: 1.5em 0;
+    background-color: #ff9800; /* Orange background */
+    color: white; /* White text */
+    text-align: center; /* Center align text */
+    padding: 1.5em 0; /* Padding for spacing */
 }
 
+/* Navigation Bar Styles */
 nav {
-    background-color: #333;
-    padding: 0.5em;
+    background-color: #333; /* Dark background */
+    padding: 0.5em; /* Padding for spacing */
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the menu */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 nav ul li {
-    margin: 0 1em;
+    margin: 0 1em; /* Add spacing between menu items */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
 }
 
+/* Meme Gallery Styles */
 .meme-gallery {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding: 1em 0;
+    display: flex; /* Arrange images in a row */
+    gap: 10px; /* Add space between images */
+    justify-content: center; /* Center align the gallery */
+    padding: 1em 0; /* Add spacing around the gallery */
 }
 
 .meme-gallery img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Fixed width for images */
+    height: auto; /* Maintain image aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+/* Footer Styles */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center align text */
+    padding: 1em 0; /* Add spacing */
 }
