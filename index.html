@@ -3,23 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>azvin tidak comli</title>
+    <title>Trendify Memes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Meme kita bersama</h1>
+        <h1>Trendify Memes</h1>
+        <p>Your hub for trending internet memes</p>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#top-memes">Top Memes</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#submit">Submit a Meme</a></li>
+        </ul>
+    </nav>
     <main>
-        <div id="meme-container">
-            <video controls src="yanto_ketapel.mp4" widht="500" height="700">
-            <p id="meme-caption">yanto ketapel</p>
-        </div>
-        <button id="nextMemeButton">Next Meme</button>
-    </main>      
+        <section id="top-memes">
+            <h2>Top Memes</h2>
+            <div class="meme-gallery">
+                <video controls src="yanto_ketapel.mp4" alt="Meme 1">
+                <img src="meme2.jpg" alt="Meme 2">
+                <img src="meme3.jpg" alt="Meme 3">
+            </div>
+        </section>
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li>Funny</li>
+                <li>Relatable</li>
+                <li>Trending</li>
+                <li>Random</li>
+            </ul>
+        </section>
+        <section id="submit">
+            <h2>Submit Your Meme</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="meme">Upload Meme:</label>
+                <input type="file" id="meme" name="meme" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <p>&copy; azvin tidak comli</p>
+        <p>© 2024 Trendify Memes. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
