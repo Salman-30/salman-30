@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 .apa_itu_aura {
-    isplay: flex; /* Arrange images in a row */
+    display: flex; /* Arrange images in a row */
     gap: 10px; /* Add space between images */
     justify-content: center; /* Center align the gallery */
     padding: 1em 0; /* Add spacing around the gallery */
