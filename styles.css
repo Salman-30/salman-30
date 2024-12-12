@@ -79,10 +79,3 @@ footer {
     text-align: center; /* Center align text */
     padding: 1em 0; /* Add spacing */
 }
-
-
-/* Video Styles */
-video {
-    height: auto
-    width: 50vh
-}
