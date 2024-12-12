@@ -53,22 +53,6 @@ nav ul li a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.apa_itu_aura {
-    display: flex; /* Arrange images in a row */
-    gap: 10px; /* Add space between images */
-    justify-content: center; /* Center align the gallery */
-    padding: 1em 0; /* Add spacing around the gallery */
-}
-
-.apa_itu_aura img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px; /* Fixed width for images */
-    height: auto; /* Maintain image aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
 
 video {
 display: flex;
